@@ -21,6 +21,7 @@
 | 146 | LRU Cache | Medium | | | Hash Table, Linked List | Design |
 | 198 | House Robber | Medium | DP | | Array | |
 | 200 | Number of Islands | Medium | DFS, BFS, Union-Find | | Graph | Graph Traversal |
+| 207 | Course Schedule | Medium | DFS, BFS, Topological Sort | | Graph | Cycle Detection |
 | 215 | Kth Largest Element in an Array | Medium | QuickSelect | | Heap | |
 | 225 | Implement Stack Using Queues | Easy | | | Stack, Queue | Design |
 | 232 | Implement Queue Using Stacks | Easy | | | Queue, Stack | Design |
@@ -35,8 +36,9 @@
 ## Quick Reference
 
 ### Algorithm
-- **DFS**: 133, 200
-- **BFS**: 102, 133, 200
+- **DFS**: 133, 200, 207
+- **BFS**: 102, 133, 200, 207
+- **Topological Sort**: 207
 - **Union-Find**: 200
 - **Greedy**: 121, 122
 - **DP**: 70, 198
@@ -55,10 +57,11 @@
 - **Deque**: 239
 - **Hash Table**: 1, 3, 49, 76, 146, 347, 387
 - **Linked List**: 2, 146
-- **Graph**: 133, 200
+- **Graph**: 133, 200, 207
 - **Binary Tree**: 102
 
 ### Problem Type
 - **Graph Traversal**: 133, 200
+- **Cycle Detection**: 207
 - **Tree Traversal**: 102
 - **Design**: 146, 225, 232, 295
