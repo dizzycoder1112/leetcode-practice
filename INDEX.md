@@ -25,6 +25,7 @@
 | 215 | Kth Largest Element in an Array | Medium | QuickSelect | | Heap | |
 | 225 | Implement Stack Using Queues | Easy | | | Stack, Queue | Design |
 | 232 | Implement Queue Using Stacks | Easy | | | Queue, Stack | Design |
+| 235 | Lowest Common Ancestor of a Binary Search Tree | Medium | | BST Property | Binary Tree | LCA |
 | 238 | Product of Array Except Self | Medium | | Prefix/Suffix | Array | |
 | 239 | Sliding Window Maximum | Hard | | Sliding Window | Heap, Deque | |
 | 295 | Find Median from Data Stream | Hard | | | Heap | Design |
@@ -48,6 +49,7 @@
 - **Two Pointers**: 11, 15, 42
 - **Sliding Window**: 3, 76, 239
 - **Prefix/Suffix**: 238
+- **BST Property**: 235
 
 ### Data Structure
 - **Array**: 11, 15, 42, 70, 121, 122, 198, 238
@@ -58,10 +60,11 @@
 - **Hash Table**: 1, 3, 49, 76, 146, 347, 387
 - **Linked List**: 2, 146
 - **Graph**: 133, 200, 207
-- **Binary Tree**: 102
+- **Binary Tree**: 102, 235
 
 ### Problem Type
 - **Graph Traversal**: 133, 200
 - **Cycle Detection**: 207
 - **Tree Traversal**: 102
+- **LCA**: 235
 - **Design**: 146, 225, 232, 295
