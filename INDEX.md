@@ -31,6 +31,7 @@
 | 295 | Find Median from Data Stream | Hard | | | Heap | Design |
 | 347 | Top K Frequent Elements | Medium | | | Heap, Hash Table | |
 | 387 | First Unique Character in a String | Easy | | | Hash Table | |
+| 424 | Longest Repeating Character Replacement | Medium | | Sliding Window | Hash Table | |
 
 ---
 
@@ -47,7 +48,7 @@
 
 ### Technique
 - **Two Pointers**: 11, 15, 42
-- **Sliding Window**: 3, 76, 239
+- **Sliding Window**: 3, 76, 239, 424
 - **Prefix/Suffix**: 238
 - **BST Property**: 235
 
@@ -57,7 +58,7 @@
 - **Queue**: 225, 232
 - **Heap**: 215, 239, 295, 347
 - **Deque**: 239
-- **Hash Table**: 1, 3, 49, 76, 146, 347, 387
+- **Hash Table**: 1, 3, 49, 76, 146, 347, 387, 424
 - **Linked List**: 2, 146
 - **Graph**: 133, 200, 207
 - **Binary Tree**: 102, 235
