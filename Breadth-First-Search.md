@@ -49,6 +49,33 @@ BFS(i, j):
         标记为已访问
         加入队列
 ```
+```
+func bfs(root *TreeNode) {
+      if root == nil {
+          return
+      }
+      queue := []*TreeNode{root}
+      level := 0
+
+      for len(queue) > 0 {
+          size := len(queue)  // 這一層有幾個節點
+
+          for i := 0; i < size; i++ {
+              node := queue[0]
+              queue = queue[1:]
+              fmt.Printf("Node %d is at level %d\n", node.Val, level)
+
+              if node.Left != nil {
+                  queue = append(queue, node.Left)
+              }
+              if node.Right != nil {
+                  queue = append(queue, node.Right)
+              }
+          }
+          level++  // 處理完一層，level + 1
+      }
+  }
+```
 
 ### 关键技巧
 

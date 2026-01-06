@@ -14,6 +14,7 @@
 | 49 | Group Anagrams | Medium | | | Hash Table | |
 | 70 | Climbing Stairs | Easy | DP | | Array | |
 | 76 | Minimum Window Substring | Hard | | Sliding Window | Hash Table | |
+| 94 | Binary Tree Inorder Traversal | Easy | DFS | | Binary Tree, Stack | Tree Traversal |
 | 102 | Binary Tree Level Order Traversal | Medium | BFS | | Binary Tree | Tree Traversal |
 | 121 | Best Time To Buy and Sell Stock | Easy | Greedy | | Array | |
 | 122 | Best Time to Buy and Sell Stock II | Medium | Greedy | | Array | |
@@ -38,7 +39,7 @@
 ## Quick Reference
 
 ### Algorithm
-- **DFS**: 133, 200, 207
+- **DFS**: 94, 133, 200, 207
 - **BFS**: 102, 133, 200, 207
 - **Topological Sort**: 207
 - **Union-Find**: 200
@@ -54,18 +55,18 @@
 
 ### Data Structure
 - **Array**: 11, 15, 42, 70, 121, 122, 198, 238
-- **Stack**: 20, 225, 232
+- **Stack**: 20, 94, 225, 232
 - **Queue**: 225, 232
 - **Heap**: 215, 239, 295, 347
 - **Deque**: 239
 - **Hash Table**: 1, 3, 49, 76, 146, 347, 387, 424
 - **Linked List**: 2, 146
 - **Graph**: 133, 200, 207
-- **Binary Tree**: 102, 235
+- **Binary Tree**: 94, 102, 235
 
 ### Problem Type
 - **Graph Traversal**: 133, 200
 - **Cycle Detection**: 207
-- **Tree Traversal**: 102
+- **Tree Traversal**: 94, 102
 - **LCA**: 235
 - **Design**: 146, 225, 232, 295
