@@ -10,6 +10,7 @@
 | 11 | Container With Most Water | Medium | | Two Pointers | Array | |
 | 15 | 3Sum | Medium | | Two Pointers | Array | |
 | 20 | Valid Parentheses | Easy | | | Stack | |
+| 33 | Search in Rotated Sorted Array | Medium | Binary Search | | Array | |
 | 42 | Trapping Rain Water | Hard | | Two Pointers | Array | |
 | 49 | Group Anagrams | Medium | | | Hash Table | |
 | 70 | Climbing Stairs | Easy | DP | | Array | |
@@ -46,6 +47,7 @@
 - **Greedy**: 121, 122
 - **DP**: 70, 198
 - **QuickSelect**: 215
+- **Binary Search**: 33
 
 ### Technique
 - **Two Pointers**: 11, 15, 42
@@ -54,7 +56,7 @@
 - **BST Property**: 235
 
 ### Data Structure
-- **Array**: 11, 15, 42, 70, 121, 122, 198, 238
+- **Array**: 11, 15, 33, 42, 70, 121, 122, 198, 238
 - **Stack**: 20, 94, 225, 232
 - **Queue**: 225, 232
 - **Heap**: 215, 239, 295, 347
