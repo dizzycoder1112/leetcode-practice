@@ -12,6 +12,7 @@
 | 20 | Valid Parentheses | Easy | | | Stack | |
 | 33 | Search in Rotated Sorted Array | Medium | Binary Search | | Array | |
 | 42 | Trapping Rain Water | Hard | | Two Pointers | Array | |
+| 1458 | Max Dot Product of Two Subsequences | Hard | DP | Two Sequences | Array | Subsequence Pairing |
 | 49 | Group Anagrams | Medium | | | Hash Table | |
 | 70 | Climbing Stairs | Easy | DP | | Array | |
 | 76 | Minimum Window Substring | Hard | | Sliding Window | Hash Table | |
@@ -45,7 +46,7 @@
 - **Topological Sort**: 207
 - **Union-Find**: 200
 - **Greedy**: 121, 122
-- **DP**: 70, 198
+- **DP**: 70, 198, 1458
 - **QuickSelect**: 215
 - **Binary Search**: 33
 
@@ -54,6 +55,7 @@
 - **Sliding Window**: 3, 76, 239, 424
 - **Prefix/Suffix**: 238
 - **BST Property**: 235
+- **Two Sequences**: 1458
 
 ### Data Structure
 - **Array**: 11, 15, 33, 42, 70, 121, 122, 198, 238
