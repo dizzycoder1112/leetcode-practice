@@ -11,11 +11,12 @@
 | 15 | 3Sum | Medium | | Two Pointers | Array | |
 | 20 | Valid Parentheses | Easy | | | Stack | |
 | 33 | Search in Rotated Sorted Array | Medium | Binary Search | | Array | |
-| 42 | Trapping Rain Water | Hard | | Two Pointers | Array | |
+| 42 | Trapping Rain Water | Hard | DP | Two Pointers, Monotonic Stack | Array, Stack | |
 | 1458 | Max Dot Product of Two Subsequences | Hard | DP | Two Sequences | Array | Subsequence Pairing |
 | 49 | Group Anagrams | Medium | | | Hash Table | |
 | 70 | Climbing Stairs | Easy | DP | | Array | |
 | 76 | Minimum Window Substring | Hard | | Sliding Window | Hash Table | |
+| 85 | Maximal Rectangle | Hard | DP | Monotonic Stack | Array, Stack | 2D to 1D Conversion |
 | 94 | Binary Tree Inorder Traversal | Easy | DFS | | Binary Tree, Stack | Tree Traversal |
 | 102 | Binary Tree Level Order Traversal | Medium | BFS | | Binary Tree | Tree Traversal |
 | 121 | Best Time To Buy and Sell Stock | Easy | Greedy | | Array | |
@@ -35,6 +36,7 @@
 | 347 | Top K Frequent Elements | Medium | | | Heap, Hash Table | |
 | 387 | First Unique Character in a String | Easy | | | Hash Table | |
 | 424 | Longest Repeating Character Replacement | Medium | | Sliding Window | Hash Table | |
+| 712 | Minimum ASCII Delete Sum for Two Strings | Medium | DP | Two Sequences | Array | String Matching |
 
 ---
 
@@ -46,7 +48,7 @@
 - **Topological Sort**: 207
 - **Union-Find**: 200
 - **Greedy**: 121, 122
-- **DP**: 70, 198, 1458
+- **DP**: 42, 70, 85, 198, 712, 1458
 - **QuickSelect**: 215
 - **Binary Search**: 33
 
@@ -55,11 +57,12 @@
 - **Sliding Window**: 3, 76, 239, 424
 - **Prefix/Suffix**: 238
 - **BST Property**: 235
-- **Two Sequences**: 1458
+- **Two Sequences**: 712, 1458
+- **Monotonic Stack**: 42, 85
 
 ### Data Structure
-- **Array**: 11, 15, 33, 42, 70, 121, 122, 198, 238
-- **Stack**: 20, 94, 225, 232
+- **Array**: 11, 15, 33, 42, 70, 85, 121, 122, 198, 238, 712
+- **Stack**: 20, 42, 85, 94, 225, 232
 - **Queue**: 225, 232
 - **Heap**: 215, 239, 295, 347
 - **Deque**: 239
