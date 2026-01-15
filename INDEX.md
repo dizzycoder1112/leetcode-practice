@@ -37,6 +37,8 @@
 | 387 | First Unique Character in a String | Easy | | | Hash Table | |
 | 424 | Longest Repeating Character Replacement | Medium | | Sliding Window | Hash Table | |
 | 712 | Minimum ASCII Delete Sum for Two Strings | Medium | DP | Two Sequences | Array | String Matching |
+| 3453 | Separate Squares I | Medium | Binary Search, Sweep Line | Binary Search on Answer | Array | Geometry |
+| 3454 | Separate Squares II | Hard | Sweep Line, Segment Tree | Merge Intervals, Coordinate Compression | Array, Segment Tree | Geometry |
 
 ---
 
@@ -50,7 +52,9 @@
 - **Greedy**: 121, 122
 - **DP**: 42, 70, 85, 198, 712, 1458
 - **QuickSelect**: 215
-- **Binary Search**: 33
+- **Binary Search**: 33, 3453
+- **Sweep Line**: 3453, 3454
+- **Segment Tree**: 3454
 
 ### Technique
 - **Two Pointers**: 11, 15, 42
@@ -59,9 +63,13 @@
 - **BST Property**: 235
 - **Two Sequences**: 712, 1458
 - **Monotonic Stack**: 42, 85
+- **Binary Search on Answer**: 3453
+- **Merge Intervals**: 3454
+- **Coordinate Compression**: 3454
 
 ### Data Structure
-- **Array**: 11, 15, 33, 42, 70, 85, 121, 122, 198, 238, 712
+- **Array**: 11, 15, 33, 42, 70, 85, 121, 122, 198, 238, 712, 3453, 3454
+- **Segment Tree**: 3454
 - **Stack**: 20, 42, 85, 94, 225, 232
 - **Queue**: 225, 232
 - **Heap**: 215, 239, 295, 347
@@ -77,3 +85,4 @@
 - **Tree Traversal**: 94, 102
 - **LCA**: 235
 - **Design**: 146, 225, 232, 295
+- **Geometry**: 3453, 3454
