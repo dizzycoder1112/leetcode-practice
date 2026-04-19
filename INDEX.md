@@ -12,16 +12,18 @@
 | 20 | Valid Parentheses | Easy | | | Stack | |
 | 33 | Search in Rotated Sorted Array | Medium | Binary Search | | Array | |
 | 42 | Trapping Rain Water | Hard | DP | Two Pointers, Monotonic Stack | Array, Stack | |
-| 1458 | Max Dot Product of Two Subsequences | Hard | DP | Two Sequences | Array | Subsequence Pairing |
 | 49 | Group Anagrams | Medium | | | Hash Table | |
+| 53 | Maximum Subarray | Medium | DP | Kadane's Algorithm | Array | |
 | 70 | Climbing Stairs | Easy | DP | | Array | |
 | 76 | Minimum Window Substring | Hard | | Sliding Window | Hash Table | |
 | 85 | Maximal Rectangle | Hard | DP | Monotonic Stack | Array, Stack | 2D to 1D Conversion |
 | 94 | Binary Tree Inorder Traversal | Easy | DFS | | Binary Tree, Stack | Tree Traversal |
+| 98 | Validate Binary Search Tree | Medium | DFS | BST Property | Binary Tree | Tree Traversal |
 | 102 | Binary Tree Level Order Traversal | Medium | BFS | | Binary Tree | Tree Traversal |
 | 121 | Best Time To Buy and Sell Stock | Easy | Greedy | | Array | |
 | 122 | Best Time to Buy and Sell Stock II | Medium | Greedy | | Array | |
 | 133 | Clone Graph | Medium | DFS, BFS | | Graph | Graph Traversal |
+| 142 | Linked List Cycle II | Medium | | Two Pointers | Linked List | Cycle Detection |
 | 146 | LRU Cache | Medium | | | Hash Table, Linked List | Design |
 | 198 | House Robber | Medium | DP | | Array | |
 | 200 | Number of Islands | Medium | DFS, BFS, Union-Find | | Graph | Graph Traversal |
@@ -33,10 +35,13 @@
 | 238 | Product of Array Except Self | Medium | | Prefix/Suffix | Array | |
 | 239 | Sliding Window Maximum | Hard | | Sliding Window | Heap, Deque | |
 | 295 | Find Median from Data Stream | Hard | | | Heap | Design |
+| 322 | Coin Change | Medium | DP | | Array | |
 | 347 | Top K Frequent Elements | Medium | | | Heap, Hash Table | |
 | 387 | First Unique Character in a String | Easy | | | Hash Table | |
 | 424 | Longest Repeating Character Replacement | Medium | | Sliding Window | Hash Table | |
+| 695 | Max Area of Island | Medium | DFS, BFS, Union-Find | | Graph | Graph Traversal |
 | 712 | Minimum ASCII Delete Sum for Two Strings | Medium | DP | Two Sequences | Array | String Matching |
+| 1458 | Max Dot Product of Two Subsequences | Hard | DP | Two Sequences | Array | Subsequence Pairing |
 | 3453 | Separate Squares I | Medium | Binary Search, Sweep Line | Binary Search on Answer | Array | Geometry |
 | 3454 | Separate Squares II | Hard | Sweep Line, Segment Tree | Merge Intervals, Coordinate Compression | Array, Segment Tree | Geometry |
 
@@ -45,44 +50,45 @@
 ## Quick Reference
 
 ### Algorithm
-- **DFS**: 94, 133, 200, 207
-- **BFS**: 102, 133, 200, 207
+- **DFS**: 94, 133, 200, 207, 695
+- **BFS**: 102, 133, 200, 207, 695
 - **Topological Sort**: 207
-- **Union-Find**: 200
+- **Union-Find**: 200, 695
 - **Greedy**: 121, 122
-- **DP**: 42, 70, 85, 198, 712, 1458
+- **DP**: 42, 53, 70, 85, 198, 322, 712, 1458
 - **QuickSelect**: 215
 - **Binary Search**: 33, 3453
 - **Sweep Line**: 3453, 3454
 - **Segment Tree**: 3454
 
 ### Technique
-- **Two Pointers**: 11, 15, 42
+- **Two Pointers**: 11, 15, 42, 142
 - **Sliding Window**: 3, 76, 239, 424
 - **Prefix/Suffix**: 238
-- **BST Property**: 235
+- **BST Property**: 98, 235
 - **Two Sequences**: 712, 1458
 - **Monotonic Stack**: 42, 85
 - **Binary Search on Answer**: 3453
 - **Merge Intervals**: 3454
 - **Coordinate Compression**: 3454
+- **Kadane's Algorithm**: 53
 
 ### Data Structure
-- **Array**: 11, 15, 33, 42, 70, 85, 121, 122, 198, 238, 712, 3453, 3454
+- **Array**: 11, 15, 33, 42, 53, 70, 85, 121, 122, 198, 238, 322, 712, 3453, 3454
 - **Segment Tree**: 3454
 - **Stack**: 20, 42, 85, 94, 225, 232
 - **Queue**: 225, 232
 - **Heap**: 215, 239, 295, 347
 - **Deque**: 239
 - **Hash Table**: 1, 3, 49, 76, 146, 347, 387, 424
-- **Linked List**: 2, 146
-- **Graph**: 133, 200, 207
-- **Binary Tree**: 94, 102, 235
+- **Linked List**: 2, 142, 146
+- **Graph**: 133, 200, 207, 695
+- **Binary Tree**: 94, 98, 102, 235
 
 ### Problem Type
-- **Graph Traversal**: 133, 200
-- **Cycle Detection**: 207
-- **Tree Traversal**: 94, 102
+- **Graph Traversal**: 133, 200, 695
+- **Cycle Detection**: 142, 207
+- **Tree Traversal**: 94, 98, 102
 - **LCA**: 235
 - **Design**: 146, 225, 232, 295
 - **Geometry**: 3453, 3454

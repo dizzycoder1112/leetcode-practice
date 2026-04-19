@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	"number_of_islands"
+	testcase "number_of_islands"
 )
 
 func main() {
@@ -46,16 +46,16 @@ func bfs(grid *[][]byte, i, j int) {
 		queue = queue[1:]
 
 		for _, v := range direction {
-			x := current[0]
-			y := current[1]
+			y := current[0]
+			x := current[1]
 			dx := v[0]
 			dy := v[1]
 			xPrime := x + dx
 			yPrime := y + dy
 
-			if xPrime >= 0 && yPrime >= 0 && xPrime < len(*grid) && yPrime < len((*grid)[0]) && (*grid)[xPrime][yPrime] == '1' {
-				(*grid)[xPrime][yPrime] = '0'
-				queue = append(queue, []int{xPrime, yPrime})
+			if xPrime >= 0 && yPrime >= 0 && yPrime < len(*grid) && xPrime < len((*grid)[0]) && (*grid)[yPrime][xPrime] == '1' {
+				(*grid)[yPrime][xPrime] = '0'
+				queue = append(queue, []int{yPrime, xPrime})
 			}
 		}
 	}

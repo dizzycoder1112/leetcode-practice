@@ -1,6 +1,10 @@
 package main
 
 // ========== 通用堆实现（MaxHeap 和 MinHeap 共享） ==========
+type Item struct {
+	count int
+	value int
+}
 
 type Heap struct {
 	items []*Item
@@ -18,7 +22,7 @@ func NewMaxHeap() *Heap {
 }
 
 // NewMinHeap 创建最小堆
-func NewMinHeap2(k int) *Heap {
+func NewMinHeap(k int) *Heap {
 	h := &Heap{items: []*Item{}, k: k}
 	h.less = func(i, j int) bool {
 		return h.items[i].count < h.items[j].count // 父节点 < 子节点
@@ -134,7 +138,7 @@ func topKFrequentRefactoredMinHeap(nums []int, k int) []int {
 	}
 
 	// 使用 MinHeap(k)
-	heap := NewMinHeap2(k)
+	heap := NewMinHeap(k)
 
 	for num, count := range freq {
 		if heap.Len() < k {
